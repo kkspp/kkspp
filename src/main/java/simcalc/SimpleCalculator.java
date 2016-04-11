@@ -14,10 +14,12 @@ public class SimpleCalculator {
 	}
 	public void div(int x, int y) {
 		if(y != 0)
-	//	if(y != 0)
-	//		result=x/y;
-	//	else
+			result=x/y;
+		else
 			System.out.println("분모가 0입니다.");
+	}
+	public void inc(int x) {
+		result +=x ;
 	}
 	public int getResult(){
 		return result;
